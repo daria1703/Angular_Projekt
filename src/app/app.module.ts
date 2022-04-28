@@ -4,11 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
-import { OrdersDCComponent } from './orders-dc/orders-dc.component';
+import { OrdersComponent } from './components/orders/orders.component';
 @NgModule({
   declarations: [
     AppComponent,
-    OrdersDCComponent
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
